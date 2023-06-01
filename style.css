@@ -1,15 +1,132 @@
-#yarrak {
-    background-color: aquamarine;
-  }
-h1 {background-color: rgb(27, 88, 141);
-    font-size: 100px;
-  }
+html,
+body {
+  font-weight: 300;
+  line-height: 3.5em;
+  font-size: 10px;
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto Condensed;
+}
 
+h1 {
+  font-size: 9em;
+  align-items: center;
+  text-transform: uppercase;
+}
 
+h2 {
+  text-shadow: #020819 8px -20px 9px;
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 4em;
+}
 
-  
-  
-  span {
-    background-color: rgba(64, 0, 255, 0.395);
-  }
+h3 {
+  font-size: 4.2em;
+  text-align: center;
+  line-height: 1em;
+}
+
+h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  line-height: 1em;
+}
+
+h5 {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+
+.nav-bar {
+  background-color: rgb(25, 33, 41 );
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+}
+
+.background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px 0px;
+  height: 650px;
+  background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+
+}
+
+.quote {
+  font-size: 2.5em;
+}
+
+.dark-background {
+  color: white;
+  background-color: rgb(25, 33, 41 )
+}
+
+.text {
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.link-btn {
+  background-color: rgb(67, 163, 230 );
+  color: white;
+  font-size: 2em;
+  font-family: Roboto Condensed;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+}
+.service-box{
+  font-size: 1.7em;
+  text-align: center;
+}
+.service-box img {
+  width: 125px;
+}
+.section-text{
+  font-size: 1.9em;
+  text-align: center;
+}
+
+.member-name{
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.team-images img{
+  width: 250px;
+  height: 180px;
+}
+.adress{
+  text-align: center;
+  font-style: normal;
+  font-size: 0.8em;
+}
+
+.footer{
+  font-size: 1.9em;
+  text-align: center;
+}
+.footer a{
+  color: rgb(67, 163, 230);
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
